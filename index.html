@@ -2,10 +2,59 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>HTML Forms Cheatsheet</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        
+        <section>
+            <h1>HTML Forms Cheatsheet</h1>
+            <p>This is my playground and cheatsheet for HTML Forms</p>
+        </section>
+        <form>
+            <fieldset class="block">
+                <label for="user-name">Enter your name </label>
+                <input type="text" id="user-name" name="user-name" placeholder="User Name">
+                <label for="user-age">Enter your age</label>
+                <input type="number" id="user-age" name="user-age" min="13" max="120">
+                <label for="user-email">Enter your email </label>
+                <input type="email" id="user-email" name="user-email" placeholder="User Email">
+            </fieldset>
+            <fieldset>
+                <legend>Simple question</legend>
+                <input type="radio">
+                <label>Yes</label>
+                <input type="radio">
+                <label>No</label>
+                <input type="radio">
+                <label>42</label>
+            </fieldset>
+            <fieldset>
+                <p>What type of transportation did you try? </p>
+                <input type="checkbox">
+                <label>Horse</label><br>
+                <input type="checkbox">
+                <label>Yacht</label><br>
+                <input type="checkbox">
+                <label>Plane</label><br>
+                <input type="checkbox">
+                <label>Big Ferry</label><br>
+                <input type="checkbox">
+                <label></label><br>
+            </fieldset>
+            <fieldset>
+                <label for="cars">Choose a car</label>
+                <select id="cars" name="cars">
+                    <option value="">(select one)</option>
+                    <option value="1">Audi</option>
+                    <option value="2">Volvo</option>
+                    <option value="3">Toyota</option>
+                </select>
+            </fieldset>
+            <fieldset class="block">
+                <label for="comment">Leave a comment</label>
+                <textarea id="comment" name="comment" rows="10" cols="30"></textarea>
+            </fieldset>
+        </form>   
+
     </body>
 </html>

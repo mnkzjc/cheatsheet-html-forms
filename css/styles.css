@@ -1,0 +1,19 @@
+body {
+    background-color:midnightblue;
+    color: lightcyan;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+form {
+    background-color: cornflowerblue;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+fieldset {
+    margin: 5px auto;
+    border-radius: 5px;
+
+}
+.block input, .block label {
+    display: block;
+}
